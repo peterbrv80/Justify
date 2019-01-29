@@ -1,4 +1,4 @@
+f = open('sample.txt', 'r')
+paragraph = f.read()
+print (paragraph.split())
 
-with open ('sample.txt', 'r') as f:
-    sample = f.read()
-    print(sample.split())
